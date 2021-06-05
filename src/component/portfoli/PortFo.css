@@ -1,0 +1,19 @@
+.portfoliList {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .portfoliList {
+    margin-right: 20px;
+  }
+}
+
+.portfoliList.active {
+  background-color: #150231;
+  color: white;
+}
+/*# sourceMappingURL=PortFo.css.map */

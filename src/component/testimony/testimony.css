@@ -1,0 +1,184 @@
+.test {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .test {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.test h1 {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .test h1 {
+    font-size: 20px;
+  }
+}
+
+.test .container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .test .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 90%;
+    overflow: hidden;
+  }
+}
+
+.test .container .card {
+  width: 250px;
+  height: 70%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px -8px black;
+          box-shadow: 0px 0px 15px -8px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+@media (max-width: 768px) {
+  .test .container .card {
+    height: 170px;
+    margin: 10px 0;
+  }
+}
+
+.test .container .card.feature {
+  width: 300px;
+  height: 75%;
+  margin: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .test .container .card.feature {
+    width: 250px;
+    height: 180px;
+    margin: 1px;
+  }
+}
+
+.test .container .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.test .container .card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.test .container .card .top img.left, .test .container .card .top img.right {
+  height: 25px;
+}
+
+.test .container .card .top img.user {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .test .container .card .top img.user {
+    width: 30px;
+    height: 40px;
+  }
+}
+
+.test .container .card .center {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ebe1e3;
+}
+
+@media (max-width: 768px) {
+  .test .container .card .center {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+.test .container .card .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.test .container .card .bottom h3 {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .test .container .card .bottom h3 {
+    font-size: 13px;
+  }
+}
+
+.test .container .card .bottom h4 {
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .test .container .card .bottom h4 {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=testimony.css.map */

@@ -1,0 +1,120 @@
+.port {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.port h1 {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .port h1 {
+    font-size: 20px;
+  }
+}
+
+.port ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .port ul {
+    margin: 10px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.port .container {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+  .port .container {
+    overflow: hidden;
+  }
+}
+
+.port .container .item {
+  width: 270px;
+  height: 130px;
+  border-radius: 20px;
+  border: 1px solid #f0efef;
+  margin: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  position: relative;
+  -webkit-transition: all  .5s ease;
+  transition: all  .5s ease;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .port .container .item {
+    width: 120px;
+    height: 80px;
+    overflow-y: hidden;
+  }
+}
+
+.port .container .item h3 {
+  position: absolute;
+  font-size: 20px;
+}
+
+.port .container .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+
+.port .container .item:hover {
+  background-color: #150231;
+}
+
+.port .container .item:hover img {
+  opacity: 0.2;
+  z-index: 0;
+}
+/*# sourceMappingURL=portfoli.css.map */

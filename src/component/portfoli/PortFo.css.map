@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,OAAO;CAUlB;;ACXG,MAAM,EAAE,SAAS,EAAE,KAAK;EDJ5B,AAAA,aAAa,CAAA;IAOL,YAAY,EAAE,IAAI;GAQzB;;;AAfD,AAWI,aAXS,AAWR,OAAO,CAAA;EACJ,gBAAgB,ECdb,OAAO;EDeV,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "PortFo.scss",
+        "../../global.scss"
+    ],
+    "names": [],
+    "file": "PortFo.css"
+}
